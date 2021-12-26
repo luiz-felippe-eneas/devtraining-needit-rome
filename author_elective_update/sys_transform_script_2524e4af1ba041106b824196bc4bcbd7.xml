@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="DELETE">
+        <active>false</active>
+        <map display_value="Import Historic NeedIt Data">df87039e1bb730106b824196bc4bcb8c</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	target.u_what_needed = 'Legal 1';
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-26 15:52:25</sys_created_on>
+        <sys_id>2524e4af1ba041106b824196bc4bcbd7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>onAfter</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_transform_script_2524e4af1ba041106b824196bc4bcbd7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-26 16:02:30</sys_updated_on>
+        <when>onAfter</when>
+    </sys_transform_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>77f5c9dadb0cc8148aea21c405961903</instance_id>
+        <instance_name>dev93798</instance_name>
+        <name>sys_transform_script_2524e4af1ba041106b824196bc4bcbd7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;map display_value="Import Historic NeedIt Data"&gt;df87039e1bb730106b824196bc4bcb8c&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	target.u_what_needed = 'Legal 1';
+
+})(source, map, log, target);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-26 15:52:25&lt;/sys_created_on&gt;&lt;sys_id&gt;2524e4af1ba041106b824196bc4bcbd7&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;onAfter&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_2524e4af1ba041106b824196bc4bcbd7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-26 16:02:30&lt;/sys_updated_on&gt;&lt;when&gt;onAfter&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>520035514</payload_hash>
+        <record_name>onAfter</record_name>
+        <reverted_from/>
+        <source>6ae90a9e1bf330106b824196bc4bcba3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-26 16:02:30</sys_created_on>
+        <sys_id>44c6ecef1ba041106b824196bc4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17df77aa9bd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-26 16:02:30</sys_updated_on>
+        <type>Transform Script</type>
+        <update_guid>4cc6ecef55a04110a794a6a0a90ef23b</update_guid>
+        <update_guid_history>4cc6ecef55a04110a794a6a0a90ef23b:520035514,9a45a0efcca041109f44ce6d1bdec5a5:1405254675,d0e4ecaf03a04110e79d9c9f9871c230:1625085945,90742c6faaa04110cd10865a86fe6f06:-1708666886</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-26 16:02:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_script">sys_transform_script</sys_db_object>
+        <sys_id>5100719e5fa24a40b1924b197a7ce900</sys_id>
+        <sys_metadata>2524e4af1ba041106b824196bc4bcbd7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onAfter</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Import Historic NeedIt Data">df87039e1bb730106b824196bc4bcb8c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_transform_script_2524e4af1ba041106b824196bc4bcbd7</sys_update_name>
+        <sys_update_version display_value="sys_transform_script_2524e4af1ba041106b824196bc4bcbd7">44c6ecef1ba041106b824196bc4bcb3c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-26 16:02:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
