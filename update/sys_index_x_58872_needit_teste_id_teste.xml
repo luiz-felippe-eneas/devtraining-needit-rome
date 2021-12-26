@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>id_teste</col_name_string>
+        <index_col_name element="id_teste" name="x_58872_needit_teste">fc3e61671ba441106b824196bc4bcb2d</index_col_name>
+        <logical_table_name>x_58872_needit_teste</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-26 21:23:39</sys_created_on>
+        <sys_id>1840b1ab1ba441106b824196bc4bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_teste</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_index_x_58872_needit_teste_id_teste</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-26 21:23:39</sys_updated_on>
+        <table display_value="NeedIt Teste" name="x_58872_needit_teste">043ee1271ba441106b824196bc4bcbc0</table>
+        <unique_index>true</unique_index>
+    </sys_index>
+</record_update>

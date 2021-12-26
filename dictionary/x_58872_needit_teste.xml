@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="NeedIt Teste" max_length="40" name="x_58872_needit_teste" type="collection">
+        <element label="ID teste" max_length="1" name="id_teste" type="integer"/>
+        <index name="index" unique="true">
+            <element name="id_teste"/>
+        </index>
+    </element>
+</database>

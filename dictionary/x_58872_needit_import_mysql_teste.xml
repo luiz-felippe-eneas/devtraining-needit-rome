@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Import MySQL Teste" max_length="40" name="x_58872_needit_import_mysql_teste" type="collection">
+        <element attributes="import_attribute_name=id_teste" label="id_teste" max_length="40" name="u_id_teste" type="integer"/>
+    </element>
+</database>
